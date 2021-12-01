@@ -1,0 +1,19 @@
+/* body {
+    display: flex;
+} */
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+}
+
+main {
+    position: absolute;
+    margin-left: 300px;
+}
+
+@media screen and (max-width: 815px) {
+    body {
+        display: block;
+    }
+}
