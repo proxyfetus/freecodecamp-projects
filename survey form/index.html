@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embryo Story</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">
+            Embryos
+        </h1>
+        <p id="description">Your Story for A Portrait As an Embryo
+        </p>
+    </header>
+    <form id="survey-form">
+        <label for="name" id="name-label">Your name:</label><br>
+        <input type="text" id="name" name="name" placeholder="please enter your name"><br>
+
+        <label for="email" id="email-label">Your email:</label><br>
+        <input type="email" id="emal" name="email" placeholder="please enter your email"><br>
+
+        <label for="age" id="number-label">Your age:</label><br>
+        <input type="number" id="number" name="age" min="0" max="130" placeholder="please enter your age"><br>
+
+        <label for="option" id="option-label">Who is the embryo for?</label><br>
+        <select id="dropdown" name="person">
+            <option value="yourself">Yourself</option>
+            <option value="your child">Your Child</option>
+            <option value="your parents">Your Parents</option>
+            <option value="someone">Someone</option>
+        </select><br>
+
+        <label for="year" id="year-label">Which year did this story happen?</label><br>
+        <input type="radio" name="year" value="Before 1900">
+        <label>Before 1900</label><br>
+        <input type="radio" name="year" value="1900-1999">
+        <label>1900-1999</label><br>
+        <input type="radio" name="year" value="2000-2022">
+        <label>2000-2022</label><br>
+        <input type="radio" name="year" value="After 2022">
+        <label>After 2022</label><br>
+
+        <label for="checkbox">How do you describe yourself</label><br>
+        <input type="checkbox" name="Adventurous" id="Adventurous" value="Adventurous">
+        <label for="Adventurous">Adventurous</label>
+        <input type="checkbox" name="Bright" id="Bright" value="Bright">
+        <label for="Bright">Bright</label>
+        <input type="checkbox" name="Faithful" id="Faithful" value="Faithful">
+        <label for="Faithful">Faithful</label>
+        <input type="checkbox" name="Free" id="Free" value="Free">
+        <label for="Free">Free</label>
+        <input type="checkbox" name="Imaginative" id="Imaginative" value="Imaginative">
+        <label for="Imaginative">Imaginative</label>
+        <input type="checkbox" name="Judgmental" id="Judgmental" value="Judgmental">
+        <label for="Judgmental">Judgmental</label><br>
+
+        <label for="textarea">Tell me your story</label><br>
+        <textarea name="" id="" cols="30" rows="10">Enter your story here...</textarea><br>
+
+        <input type="submit" value="Submit"><br>
+    
+    </form>
+
+</body>
+
+
+</html>

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 1em;
+    background-color: aquamarine;
+
+}
+
+header {
+    font-size: 2em;
+    font-weight: bolder;
+    background-color: rgba(250, 247, 247, 0.4);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#title {
+    position: relative;
+}
+
+#image {
+    margin: auto;
+    display: block;
+    max-width: 18em;
+}
+
+#img-caption {
+    font-size: 0.5em;
+    font-weight: lighter;
+}
+
+main {
+    text-align: left;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+main li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
